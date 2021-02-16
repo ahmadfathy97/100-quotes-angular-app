@@ -1,0 +1,5 @@
+<h2>Quotes</h2>
+<p *ngIf="!loaded">Loading</p>
+<section class="quotes-container" *ngIf="quotes">
+  <app-quote *ngFor="let quote of quotes; let i = index" [quote]="quote" [i]="i + 1"></app-quote>
+</section>

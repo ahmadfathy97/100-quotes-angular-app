@@ -1,0 +1,14 @@
+.rand-quote-btn{
+  display: block;
+  margin: 1rem auto;
+  font-size: 26px;
+  padding: .5rem 1rem;
+  background: #6f00ff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #fff;
+  &:hover{
+    background: darken(#6f00ff, 10);
+  }
+}

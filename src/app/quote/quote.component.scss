@@ -1,0 +1,45 @@
+.quote{
+  border: 1px solid #ddd;
+  padding: 1em;
+  margin: 2rem auto;
+  box-shadow: 0 8px 8px #8873a4;
+  border-radius: 8px;
+  position: relative;
+  max-width: 1100px;
+  span{
+    background: #8873a4;
+    color: #f8f8f8;
+    position: absolute;
+    top: -15px;
+    left: 10px;
+    height: 20px;
+    width: 40px;
+    text-align: center;
+    font-weight: 700;
+    transform: skewX(-10deg);
+    &:after{
+      content: '';
+      position: absolute;
+      bottom:-100%;
+      left: 50%;
+      width:0;height: 0;
+      border: 10px solid transparent;
+      border-top-color: #8873a4;
+      transform: translate(-50%, 0);
+    }
+  }
+  q{
+    display: block;
+    font-size: 24px;
+    margin-bottom: 1rem;
+  }
+  h5{
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    &:before{
+      content: '-';
+
+    }
+  }
+}
