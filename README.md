@@ -1,4 +1,4 @@
-# 100 Quotes
+# [100 Quotes](https://100-quotes.netlify.app/)
 
 ## trying angular for the first time ...
 ## my experience with building this app not bad
